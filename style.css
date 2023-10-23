@@ -1,0 +1,213 @@
+h1 { 
+    color: #3E8914 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E8FCCF;
+    
+}
+
+header
+{
+  padding: 12px;
+  background: #134611;
+  color: #96E072;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-right: 20px; /* Add a margin to create space */
+  }
+
+header h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-right: 20px; /* Add a margin to create space */
+  }
+
+header a {
+    box-shadow: inset 0 0 0 0 #96E072;
+    color: #96E072;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    display: inline-block;
+  }
+
+header a:hover {
+    box-shadow: inset 100px 0 0 0 #96E072;
+    color: #3E8914;
+  }
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* To ensure full width separation between left and right */
+    margin: 0 auto; /* Center the content if needed */
+  }
+
+.header-left{
+    flex:1;
+    padding:15px;
+}
+
+.header-right a{
+    text-decoration: none;
+    color: #E8FCCF;
+    margin: 0 10px;
+}
+
+footer
+{
+    bottom: 0;
+    padding: 12px;
+    background: #134611;
+    color: #96E072;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* To ensure full width separation between left and right */
+    margin: 0 auto; /* Center the content if needed */
+  }
+
+.footer-left{
+    padding: 20px;
+    flex:1;
+    text-align: left;
+}
+.footer-center{
+    flex: 1;
+    text-decoration: none;
+    color: #E8FCCF;
+    margin: 10px 10px;
+}
+
+.footer-right {
+    padding: 20px;
+    text-decoration: none;
+    color: #E8FCCF;
+    text-align: left;
+}
+
+nav a {
+    font-size: 14px; /* Adjust the font size for the <a> elements inside the <nav> */
+  }
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1400px; /* Maksymalna szerokość zawartości */
+    margin: 0 auto; /* Automatyczne centrowanie zawartości */
+    margin-bottom:20px;
+    padding: 20px; /* Marginesy wewnątrz zawartości */
+    background-color: #E8FCCF; /* Tło zawartości */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Cień wokół zawartości */
+}
+main h1{
+    text-align: center;
+}
+main article img 
+{ 
+    width: 100%;
+    height: 305px;
+    object-fit: cover;
+    border-color: #E8FCCF; border-style: solid ;
+    background-color: #E8FCCF;
+    background-position: center;
+}
+
+main article img:hover 
+{ 
+    border-color: #134611; border-style: solid ;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #3DA35D;
+    color: white;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+section.aktualnosci, section.przepis {
+    max-width: 1400px;
+    margin: 0 auto; /* Automatyczne centrowanie zawartości */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+section.aktualnosci article, section.przepis article {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #E8FCCF;
+}
+
+section.aktualnosci .aktualnosc-content, section.przepis .przepis-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #E8FCCF;
+}
+section.aktualnosci .aktualnosc-content figure {
+    margin: 0;
+    
+}
+section.aktualnosci .aktualnosc-content img,section.przepis .przepis-content img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    display: block; /* Add this property to center the image */
+    margin: 0 auto; /* Add this property to center the image */
+}
+section.aktualnosci .aktualnosc-content .aktualnosc-text {
+    flex: 1;
+    padding: 10px;
+}
+figcaption{
+    display: block;
+    font-size: 90%;
+    text-align: center;
+    color:  #134611;
+}
+section.aktualnosci h2{
+    color:  #134611;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+section.aktualnosci article h2 {
+    text-align: left;
+}
+
+section.aktualnosci article h3,
+section.aktualnosci article p {
+    color: #3DA35D;
+}
