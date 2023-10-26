@@ -271,3 +271,13 @@ section.kontakt td a {
 section.kontakt td a:hover {
     text-decoration: underline;
 }
+.kontakt-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kontakt figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
