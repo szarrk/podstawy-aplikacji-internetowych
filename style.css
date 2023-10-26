@@ -171,7 +171,9 @@ main article img:hover
     opacity: 0.7;
   }
   
-section.aktualnosci, section.przepis {
+section.aktualnosci, 
+section.przepis, 
+section.kontakt {
     max-width: 1400px;
     margin: 0 auto; /* Automatyczne centrowanie zawartości */
     display: flex;
@@ -179,17 +181,21 @@ section.aktualnosci, section.przepis {
     justify-content: space-between;
     padding: 20px;
     border-right: 1px solid #eeeeee;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
-section.aktualnosci article, section.przepis article {
+section.aktualnosci article, 
+section.przepis article, 
+section.kontakt article {
     width: 100%;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #E8FCCF;
 }
 
-section.aktualnosci .aktualnosc-content, section.przepis .przepis-content {
+section.aktualnosci .aktualnosc-content, 
+section.przepis .przepis-content 
+section.kontakt .kontakt-content
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -201,7 +207,9 @@ section.aktualnosci .aktualnosc-content figure {
     margin: 0;
     
 }
-section.aktualnosci .aktualnosc-content img,section.przepis .przepis-content img {
+section.aktualnosci .aktualnosc-content img,
+section.przepis .przepis-content img 
+section.kontakt .kontakt-content img{
     max-width: 50%;
     height: auto;
     object-fit: cover;
@@ -234,4 +242,32 @@ section.aktualnosci article p {
 
 [title="pozdrowienia"]{
     font-weight: bold; 
+}
+
+section.kontakt table{
+    color:  #134611;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+section.kontakt th {
+    background-color: #134611;
+    color: #E8FCCF;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+section.kontakt td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+section.kontakt td a {
+    text-decoration: none;
+    color: #134611;
+    font-weight: bold;
+}
+
+section.kontakt td a:hover {
+    text-decoration: underline;
 }
