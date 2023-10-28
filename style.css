@@ -226,7 +226,9 @@ figcaption{
     text-align: center;
     color:  #134611;
 }
-section.aktualnosci h2{
+section.aktualnosci h2,
+section.kontakt h2,
+section.przepis h2{
     color:  #134611;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -276,8 +278,15 @@ section.kontakt td a:hover {
     flex-direction: column;
     align-items: center;
 }
-.kontakt figure {
+.kontakt figure,
+.przepis figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.przepis-text h3{
+    color:#3E8914;
+}
+.przepis-text p, ul, ol, li{
+    color:#134611;
 }
