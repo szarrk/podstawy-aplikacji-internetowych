@@ -22,13 +22,13 @@ header
 header h1 {
     font-size: 30px;
     margin: 0;
-    margin-right: 20px; /* Add a margin to create space */
+    margin-right: 20px; 
   }
 
 header h2 {
     font-size: 20px;
     margin: 0;
-    margin-right: 20px; /* Add a margin to create space */
+    margin-right: 20px; 
   }
 
 header a {
@@ -49,8 +49,8 @@ header a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* To ensure full width separation between left and right */
-    margin: 0 auto; /* Center the content if needed */
+    width: 100%;
+    margin: 0 auto;
   }
 
 .header-left{
@@ -82,8 +82,8 @@ footer
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* To ensure full width separation between left and right */
-    margin: 0 auto; /* Center the content if needed */
+    width: 100%;
+    margin: 0 auto;
   }
 
 .footer-left{
@@ -119,17 +119,17 @@ footer
 }
 
 nav a {
-    font-size: 14px; /* Adjust the font size for the <a> elements inside the <nav> */
+    font-size: 14px;
   }
 
 main{
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1400px; /* Maksymalna szerokość zawartości */
-    margin: 0 auto; /* Automatyczne centrowanie zawartości */
+    max-width: 1400px;
+    margin: 0 auto;
     margin-bottom:20px;
-    padding: 20px; /* Marginesy wewnątrz zawartości */
-    background-color: #E8FCCF; /* Tło zawartości */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Cień wokół zawartości */
+    padding: 20px;
+    background-color: #E8FCCF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 main h1{
     text-align: center;
@@ -175,7 +175,7 @@ section.aktualnosci,
 section.przepis, 
 section.kontakt {
     max-width: 1400px;
-    margin: 0 auto; /* Automatyczne centrowanie zawartości */
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -213,8 +213,8 @@ section.kontakt .kontakt-content img{
     max-width: 50%;
     height: auto;
     object-fit: cover;
-    display: block; /* Add this property to center the image */
-    margin: 0 auto; /* Add this property to center the image */
+    display: block;
+    margin: 0 auto;
 }
 section.aktualnosci .aktualnosc-content .aktualnosc-text {
     flex: 1;
