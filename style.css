@@ -284,6 +284,10 @@ section.kontakt td a:hover {
     flex-direction: column;
     align-items: center;
 }
+.przepis-text{
+    padding:20px 20px 20px 50px;
+}
+
 .przepis-text h3{
     color:#3E8914;
 }
