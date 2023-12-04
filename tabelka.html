@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelka</title>
+    <script src="tabelka.js" defer></script>
+    <link rel="stylesheet" href="tabelka.css">
+</head>
+
+<body>
+    <table id="myTable">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label for="note">Wydarzenie:</label>
+                        <input type="text" id="note" name="note">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <label for="eventDate">Data:</label>
+                        <input type="date" id="eventDate" name="eventDate">
+                    </div>
+                </td>
+                <td>
+                    <button id="delete" onclick="myDeleteFunction()">Usuń wiersz</button>
+                </td>
+                <td>
+                    <button onclick="movingRows('up', this.parentNode.parentNode)">&ShortUpArrow;</button>
+                </td>
+                <td>
+                    <button onclick="movingRows('down', this.parentNode.parentNode)">&ShortDownArrow;</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label for="note">Wydarzenie:</label>
+                        <input type="text" id="note" name="note">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <label for="eventDate">Data:</label>
+                        <input type="date" id="eventDate" name="eventDate">
+                    </div>
+                </td>
+                <td>
+                    <button id="delete" onclick="myDeleteFunction()">Usuń wiersz</button>
+                </td>
+                <td>
+                    <button onclick="movingRows('up', this.parentNode.parentNode)">&ShortUpArrow;</button>
+                </td>
+                <td>
+                    <button onclick="movingRows('down', this.parentNode.parentNode)">&ShortDownArrow;</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="btn" onclick="addRow()"> Dodaj wiersz </button>
+    
+    <div id="message">
+        <p id="numberOfRows">Liczba wierszy w tabeli: </p>
+      </div>
+
+    </body>
+
+</html>
