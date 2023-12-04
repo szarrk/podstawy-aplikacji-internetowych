@@ -1,0 +1,37 @@
+.error {
+    border: 1px solid red;
+}
+.error-star {
+    display:none;
+}
+.error .error-star{
+    display: inline;
+    color: red;
+}
+
+.error:before {
+    position: absolute;
+    left: -35px;
+    content: "\2715";
+  }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+#message {
+    display:none;
+    background: #f5f5dc; /* Beżowe tło */
+    color: #ff0000; /* Czerwony kolor tekstu */
+    position: relative;
+    top: 0;
+    width: 400px; /* Szerokość komunikatu */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid red; /* Czerwona ramka */
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
